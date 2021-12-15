@@ -6,14 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 .showcase{
-  position: absolute;
+  position: sticky;
   width: 100%;
-  min-height: 70vh;
+  min-height: 81vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #111;
   z-index: 2;
+  /* height: 100px; */
+ 
 }
 header{
     position:fixed;
@@ -23,6 +25,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 .logo{
     text-transform: uppercase;
@@ -33,10 +36,11 @@ header{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
     opacity: 0.7;
     z-index: -1;
+    height: 800px;
 }
 /* .overlay{
   position: absolute;
@@ -101,10 +105,198 @@ div h2{
 .fa-play{
    padding-left: 5px;
 }
-.showcase-1{
+/* .showcase-1{
     background-color: wheat;
     width: 100%;
     height: 20vh;
+} */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(150px,1fr));
+    margin: 40px;
+    margin-top: 60px;
+    justify-items: center;
+    height: 500px;
+    align-items: center;
 }
-
+.content-2{
+   display: flex;
+   flex-direction: column;
+   line-height: 27px;
+    width: 650px;
+}
+.h3-0{
+    font-weight:600;
+    margin-bottom:40px;
    
+}
+.p-0{
+    font-weight: 300;
+    font-size: 25px;
+}
+.fa-check{
+    padding-right: 10px;
+}
+.showcase-1{
+    background-color:  rgb(32, 32, 32);
+    width: 100%;
+    height:90vh;
+}
+.last-pj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+}
+.ft{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 2;
+}
+.showcase-2{
+    width: 100%;
+    height:100vh;
+    display: grid;
+   
+   
+
+}
+.myservice{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+}
+.showcase-3{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    background-color:white;
+    justify-items: center;
+    width: 100%;   
+}
+.product{
+    background-color: white;
+    width: 400px; 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 0px;
+    box-shadow:  0 4px 20px rgb(0 0 0 / 0.2);
+    margin: 100px;
+   
+    
+}
+.fa-film{
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(49, 69, 88);
+}
+.fa-film:hover{
+   color: rgb(149, 168, 192);
+}
+.nav-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.fa-hand-point-right{
+    padding: 10px;
+    color: rgb(49, 69, 88);
+}
+.fa-video{
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(49, 69, 88);
+}
+.fa-camera-retro{
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(49, 69, 88);
+}
+.text-h{
+   
+   width: 200px;
+   margin-top: 20px;
+   font-size: 30px;
+
+}
+/* .circle{
+    border: rgb(49, 69, 88) 2px solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 90px;
+   /* margin: 10px; */
+  
+.hed-p{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   
+}
+.text-p{
+width: 250px;
+}
+.fl-s{
+  
+}
+.pd-1{
+    margin-left: 200px;
+}
+.pd-3{
+    margin-right: 200px;
+}
+.showcase-4{
+    display: grid;
+    grid-template-columns: 1;
+    justify-items: center;
+    width: 100%;
+    height: 650px;
+}
+.jane{
+    background-color: white;
+    width: 40%;
+    height: 90%;
+}
+/* .cl-ax{
+    background-color: thistle;
+    border: 1px solid ;
+    height: 200px;
+    width: 300px;
+} */
+.baby-yoda{
+    width: 100%;
+    height: 70%;
+}
+.bordr{
+    border-top: 3px solid rgb(160, 154, 154) ;
+    width: 100px;
+    margin: 20px;
+}
+.link{
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+   
+}
+.link:hover{
+    color: rgba(133, 150, 158, 0.8);
+}
+.fig-cap{
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+    color: indianred;
+   
+}
+.whole{
+    margin-top: 30px;
+}
