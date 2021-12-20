@@ -300,3 +300,153 @@ width: 250px;
 .whole{
     margin-top: 30px;
 }
+.showcase-5{
+    background-color: rgb(104, 135, 160);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+
+   
+}
+.container{
+    width: 40%;
+    height: 5%;
+    background-color: rgb(180, 172, 172);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    place-items: center;
+    padding: 5px;
+    box-shadow: 0 10px 40px rgb(149, 168, 192);
+}
+.box-items{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    user-select: none;
+    pointer-events: none;
+}
+.point{
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    pointer-events: all;
+   
+}
+.link-1{
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+}
+.link-1::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rosybrown;
+    left: 50%;
+    bottom: -8px;
+    border-radius: 5px;
+}
+.point:hover .link-1::before{
+    width: 100%;
+    left: 0;
+    transition: .2s all;
+}
+.sec-koli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 200px 220px 300px 300px;
+    gap: 15px;
+    grid-template-rows: 200px 300px 200px;
+}
+.box-one{
+    background-color: white;
+    grid-column: 1/span 2;
+    grid-row: 1/2;
+    width: 100%;
+     padding: 20px;
+     box-shadow:  0 10px 40px rgb(149, 168, 192);
+  
+}
+.box-two{
+    background-color: white;
+    grid-row: 2/4;
+    grid-column: 1/span 2;
+    width: 100%;
+    box-shadow:  0 10px 40px rgb(149, 168, 192);
+  
+}
+.box-three{
+    background-color: white;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    padding: 20px;
+     box-shadow:  0 10px 40px rgb(149, 168, 192);
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0) 50%
+    ),
+    /* url(khodeshe.jpg); */
+    /* background-repeat: no-repeat */
+     
+  
+}
+.box-four{
+    
+    background-color: snow;
+    width: 350px;
+    padding: 20px;
+    height: 220px;
+    box-shadow:  0 10px 40px rgb(149, 168, 192);
+
+   
+}
+.rel-four{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.flex-four{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box-five{
+    margin-left: 50px;
+    height: 220px;
+    box-shadow:  0 10px 40px rgb(149, 168, 192);
+}
+.img-two{
+    width: 100%;
+    height: 60%;
+}
+.five-img{
+    width: 100%;
+    height: 100%;
+}
+.img-three{
+    width: 100%;
+    height: 100%;
+    opacity: ;
+}
+.bottom-l{
+ 
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(180, 200, 201);
+   
+   
+  
+}
