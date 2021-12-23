@@ -17,6 +17,9 @@
   /* height: 100px; */
  
 }
+@media screen and (max-width:) {
+    
+}
 header{
     position:fixed;
     top: 0px;
@@ -40,7 +43,7 @@ header{
     object-fit: cover;
     opacity: 0.7;
     z-index: -1;
-    height: 800px;
+    height: 100%;
 }
 /* .overlay{
   position: absolute;
@@ -115,9 +118,11 @@ div h2{
     grid-template-columns: repeat(2,minmax(150px,1fr));
     margin: 40px;
     margin-top: 60px;
-    justify-items: center;
+    justify-items: ;
+  
     height: 500px;
-    align-items: center;
+   
+  
 }
 .content-2{
    display: flex;
